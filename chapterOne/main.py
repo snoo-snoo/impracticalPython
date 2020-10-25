@@ -17,5 +17,8 @@ first_names = (
 
 surnames = (
     'Lightning-Leopard', 'Mega-Wraith', 'Blue Blockbuster', 'Golden Gastropod', 'Conquering Queen', 'Miltiversio',
-    'Night Champion', 'Mighy Dynamo', 'Super-ARcher', 'Space Mermaid', 'Dinosaur Damsel', 'Laser-Eyes'
+    'Night Champion', 'Mighy Dynamo', 'Super-ARcher', 'Space Mermaid', 'Dinosaur Damsel', 'Laser-Eyes',
+    'Bigmeat', 'Bloominshine', 'Boogerbottom', 'Breedslovetrout', 'Buttergaugh', 'Clovenhoff', 'Clutterbuck',
+    'Cocktoasten', 'Endicott', 'Fewhairs', 'Hooperbag', 'Jenkins', 'Jefferson', 'Kingfish', 'Listenbee', 'McFadden',
+    'Moonshine', 'Oxhandler', 'Pealike', 'Pennywhistle', 'Winterkorn', 'Woolysocks'
 )
