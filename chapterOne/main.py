@@ -8,6 +8,7 @@ print('A name just like Snoo would pick for Discostu.\n')
 
 
 def main():
+    """ Choose names at random from 2 tuples of names and print to screen. """
     first_names = (
         'Janeth', 'Scarlet', 'Regan', 'Lyn', 'Carina', 'Jolanda', 'Sima', 'Preston', 'Flo', 'Kasey', 'Jamaal',
         'Jeanine',
