@@ -2,8 +2,8 @@
 
 import sys, random
 
-print("Welcome to the Psych 'Sidekick Name Generator'.\n")
-print("A name just like Snoo would pick for Discostu.\n")
+print('Welcome to the Psych \'Sidekick Name Generator\'.\n')
+print('A name just like Snoo would pick for Discostu.\n'')
 
 first_names = (
     'Janeth', 'Scarlet', 'Regan', 'Lyn', 'Carina', 'Jolanda', 'Sima', 'Preston', 'Flo', 'Kasey', 'Jamaal', 'Jeanine',
@@ -22,3 +22,17 @@ surnames = (
     'Cocktoasten', 'Endicott', 'Fewhairs', 'Hooperbag', 'Jenkins', 'Jefferson', 'Kingfish', 'Listenbee', 'McFadden',
     'Moonshine', 'Oxhandler', 'Pealike', 'Pennywhistle', 'Winterkorn', 'Woolysocks'
 )
+
+while True:
+    first_name = random.choice(first_names)
+    last_name = random.choice(last_name)
+
+    print('\n\n')
+    print('{} {}'.format(first_name, last_name), file=sys.stderr)
+    print('\n\n')
+
+    try_again = input('\n\nTry again? (Press Enter else n to quit)\n ')
+    if try_again.lower() == 'n':
+        break
+
+input('\nPress Enter to exit.')
