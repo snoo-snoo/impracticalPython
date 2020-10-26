@@ -7,14 +7,13 @@ def form_pig_latin():
     """Take a user input and form a pig latin word."""
     word = input("Please input a word: \n")
 
-    if isinstance(word, str):
-
+    if word.isalpha():
         if word.startswith(VOWELS):
             pig_latin = word + "way"
         else:
             pig_latin = word[1:len(word)] + word[0] + "ay"
 
-        print(pig_latin)
+        print("Your pig latin is: " + pig_latin)
 
     else:
         print("The given input looks like its not a word, please try again.")
