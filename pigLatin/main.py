@@ -9,11 +9,10 @@ def form_pig_latin():
 
     if isinstance(word, str):
 
-        if not word.startswith(VOWELS):
-            pig_latin = word[1:len(word)] + word[0] + "ay"
-            print(pig_latin)
-        else:
+        if word.startswith(VOWELS):
             pig_latin = word + "way"
+        else:
+            pig_latin = word[1:len(word)] + word[0] + "ay"
 
         print(pig_latin)
 

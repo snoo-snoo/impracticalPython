@@ -16,11 +16,11 @@ Ask the user for an input
 Check that input if its a word
 If its a word:
     Check the first character
+    If the first character is a vowel:
+        Add "way" to the end of that word
     If the first character is a consonant:
         Move that consonant to the end
         Add "ay" to the end of that word
-    If the first character is a vowel:
-        Add "way" to the end of that word
 If its not a word:
     Print an error message
     repeat
