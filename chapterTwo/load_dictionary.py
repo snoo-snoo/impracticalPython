@@ -22,5 +22,5 @@ def load(file):
             loaded_txt = [x.lower() for x in loaded_txt]
             return loaded_txt
     except IOError as e:
-        print("{}\nError opening {}. Terminating proram.".format(e, file), file=sys.stderr)
+        print("{}\nError opening {}. Terminating proramm.".format(e, file), file=sys.stderr)
         sys.exit(1)
