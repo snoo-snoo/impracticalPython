@@ -1,7 +1,6 @@
 """ Find all word-pair palingrams in a dictionary file. """
 
 from chapterTwo.load_dictionary import load
-import numpy as np
 
 def find_palingrams(file):
     """ Find all word-pair palingrams in a dictionary file. """
